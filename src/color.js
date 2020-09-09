@@ -1,4 +1,3 @@
-import react from 'react'
 const AppTheme = {
     light: {
         textColor: "#000",

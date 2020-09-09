@@ -1,7 +1,7 @@
-import react from 'react';
-import ThemeContext from './ThemeContext';
-import AppTheme from './color';
-import { useContext } from 'react';
+import React, { useContext } from "react";
+import ThemeContext from "./ThemeContext";
+import AppTheme from "./color";
+
 
 const Main = () => {
     const theme = useContext(ThemeContext)[0];
@@ -20,4 +20,5 @@ const Main = () => {
 }
 
 export default Main;
+
 

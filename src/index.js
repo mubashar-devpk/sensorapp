@@ -1,10 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-//import MediaCard from './App';
-//import Room from './room'
 import * as serviceWorker from './serviceWorker';
 import App from './App';
+
 ReactDOM.render(
   <div>
     <App></App>

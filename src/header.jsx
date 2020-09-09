@@ -1,22 +1,21 @@
-import react from 'react';
-import themetoggler from './themetoggler';
+import React from "react";
+import ThemeToggler from "./ThemeToggler";
 
-const headerstyle ={
+const headerStyles = {
     padding: "1rem",
     display: "flex",
     justifyContent: "space-between",
     alignItems: "center"
 }
-
-const Header=()=>{
+const Header = () => {
     return(
-        <header style= {headerstyle}>
-            <h1>context Api</h1>
-            <themetoggler />
-            
-            </header>
+        <header style = {headerStyles}>
+            <h1>Context API</h1>
+            <ThemeToggler />
+        </header>
     );
-
 }
+
 export default Header;
+
 

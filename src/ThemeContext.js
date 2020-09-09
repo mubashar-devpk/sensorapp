@@ -7,10 +7,4 @@ const ThemeContext = React.createContext(["light", () => {}]);
 
 
 
-
-
-
-
-
-
-export default Themecontext;
+export default ThemeContext;

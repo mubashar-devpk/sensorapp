@@ -1,8 +1,8 @@
-import React from 'react';
-import Child from './child';
+//import React from 'react';
+//import Child from './child';
 
 
-function Parent(props){
+/*function Parent(props){
     return(
         <div>
             parent
@@ -14,3 +14,4 @@ function Parent(props){
     );
 }
 export default Parent;
+*/

@@ -1,9 +1,8 @@
-import react,{useContext} from 'react';
-import ThemeContext from './ThemeContext';
+import React,{useContext} from "react";
+import ThemeContext from './ThemeContext'
 
-const themetogglerstyle={
-    cursor:"pointer"
-
+const themeTogglerStyle = {
+    cursor: "pointer"
 }
 const ThemeToggler = () => {
     const[themeMode, setThemeMode] = useContext(ThemeContext);
@@ -15,4 +14,5 @@ const ThemeToggler = () => {
         </div>
     );
 }
-export default Themetoggler;
+
+export default ThemeToggler;
