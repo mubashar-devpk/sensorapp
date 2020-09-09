@@ -1,27 +1,36 @@
-import React from 'react';
+import React, { useState } from 'react';
+import ReactDOM from "react-dom";
 import logo from './logo.svg';
 import './App.css';
+import Parent from './parent';
+//import Room from './room';
+//import Themecontext from './ThemeContext'
 
-function App() {
+function App(){
+  let [number, setNumber] =React.useState(45);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-          developed by mubashar chand
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      Hello world
+      <Parent num ={number}></Parent>
+      <button onClick={()=>{setNumber(number++)}}>update number</button>  
     </div>
   );
 }
 
+
+
+/*function App(){
+  const themeHook = useState("light");
+  return(
+    <Themecontext.Provider value ={themeHook}>
+      <div>
+      <Header />
+       <Main />
+      
+
+      </div>
+    </Themecontext.Provider>
+  );
+}
+*/
 export default App;
